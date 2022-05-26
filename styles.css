@@ -7,6 +7,24 @@
   background-color: #212121;
   color: #f2f2f2;
 }
+:root {
+  --cyan: #80ffea;
+  --green: #8aff80;
+  --orange: #ffca80;
+  --pink: #ff80bf;
+  --purple: #9580ff;
+  --yellow: #ffff80;
+  --cyan-30: #80ffea33;
+  --green-30: #8aff80;
+  --pink-30: #FF80BF3;
+  --yellow-30: #ffff80;
+  --background-40: #282a3666;
+  --cyan-40: #80ffea66;
+  --green-40: #8aff80;
+  --pink-40: #FF80BF6;
+  --purple-40: #9580ff;
+  --yellow-40: #ffff80;
+}
 
 .main {
   margin: 0 auto;
@@ -39,4 +57,28 @@ td {
 }
 p {
   margin-top: 1.5rem;
+}
+h1 {
+  text-align: center;
+  background-image: linear-gradient(135deg, var(--yellow) 0%, var(--pink) 100%);
+  font-family: inherit;
+  font-size: 48px;
+  line-height: 50px;
+  margin: 0px 0px 20px;
+  color: #f2f2f2;
+  background-size: 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+header p {
+  background-image: linear-gradient(135deg, var(--cyan) 0%, var(--green) 100%);
+  font-family: inherit;
+  text-align: center;
+  font-size: 25px;
+  line-height: 50px;
+  margin: 0px 0px 20px;
+  color: var(--cyan);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
