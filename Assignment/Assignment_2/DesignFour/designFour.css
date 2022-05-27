@@ -72,3 +72,74 @@ nav {
   padding-right: 11rem;
   margin-bottom: 10rem;
 }
+.column {
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+
+.row-button-wrap::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table {
+  border-collapse: collapse;
+}
+td {
+  border: 1px solid #54595e;
+  color: #54595e;
+  padding: 5px;
+  width: 180px;
+}
+td#forms {
+  background-color: #7749f8;
+  color: white;
+}
+
+.checkbox-wrap::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col-1 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+#checkboxes {
+  float: left;
+  clear: left;
+}
+
+.inline > div {
+  float: left;
+}
+
+.right {
+  float: right;
+  width: 60%;
+}
+
+.vertical {
+  float: left;
+}
+.inline {
+  float: right;
+  width: 80%;
+  margin-top: 0px;
+}
+.inline::after,
+.vertical::after,
+.right::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.right {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
