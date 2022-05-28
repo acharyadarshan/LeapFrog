@@ -100,14 +100,19 @@ inline form {
   float: left;
 }
 
+hr {
+  border: 1px solid #54595e;
+}
 table {
   border-collapse: collapse;
+  width: 300px;
+  border: 1px solid wheat;
 }
 td {
-  border: 1px solid #54595e;
+  border: 1px solid wheat;
   color: #54595e;
   padding: 5px;
-  width: 180px;
+  border: 1px solid wheat;
 }
 td#forms {
   background-color: #7749f8;
@@ -159,4 +164,15 @@ aside::after,
 .right {
   padding-top: 20px;
   padding-bottom: 40px;
+}
+
+.wrap-form {
+  position: absolute;
+  left: 40rem;
+}
+form input[type="text"]#Input {
+  border: 1px solid #28a745;
+}
+form input[type="text"]#Error {
+  border: 1px solid red;
 }
