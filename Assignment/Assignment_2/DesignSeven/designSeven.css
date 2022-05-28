@@ -177,7 +177,12 @@ i {
   text-align: center;
   padding-top: 16px;
   padding-bottom: 16px;
-  color: #54595e;
+  color: #212529;
+  font-size: 12px;
+  font-weight: regular;
+}
+.top {
+  padding: 5px;
 }
 .top button {
   padding: 4px;
@@ -191,11 +196,13 @@ i {
 }
 .intro span,
 .top span {
-  font-size: 14px;
+  font-size: 12px;
   color: #54595e;
 }
 span.name {
   color: #212529;
+  font-size: 12px;
+  text-align: center;
 }
 
 .icon-wrap {
