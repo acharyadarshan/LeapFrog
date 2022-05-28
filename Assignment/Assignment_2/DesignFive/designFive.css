@@ -25,14 +25,12 @@ header {
   padding-right: 11rem;
 }
 
-table ul li {
+nav ul li {
   list-style: none;
   display: inline;
 }
-.table ul {
-  margin-left: -9 0px;
-}
-table ul li a {
+
+nav ul li a {
   text-decoration: none;
   padding-left: 14px;
   color: #54595e;
@@ -98,6 +96,10 @@ hr {
 }
 table {
   border-collapse: collapse;
+  border: 1px solid wheat;
+}
+tr {
+  border: 3 px solid wheat;
 }
 td {
   border: 1px solid #54595e;
@@ -105,7 +107,9 @@ td {
   padding: 5px;
   padding-left: 12px;
   padding-right: 12px;
-  width: 250px;
+  width: 260px;
+  border-radius: 4px;
+  border: 1px solid wheat;
 }
 td#forms {
   background-color: #7749f8;
@@ -119,6 +123,7 @@ td#forms {
   color: #54595e;
   display: block;
   padding: 5px;
+  padding-bottom: 15px;
 }
 
 main-intro h3 {
@@ -129,6 +134,45 @@ main-intro h3 {
   float: right;
 }
 
-.box {
-  background-color: #54595e;
+#styleH {
+  font-weight: bold;
+  color: white;
+  padding-right: 10px;
+}
+#styleP {
+  font-size: 10px;
+  color: white;
+}
+.first-row {
+  background-color: #7749f8;
+}
+.first-row-wrapper span {
+  font-size: 13px;
+}
+.first-row td p {
+  color: white;
+  font-size: 13px;
+}
+
+.second-row-wrapper span {
+  font-size: 13px;
+}
+.second-row td p {
+  font-size: 13px;
+}
+.third-row-wrapper span {
+  font-size: 13px;
+}
+.third-row td p {
+  font-size: 13px;
+}
+
+.leftSpan {
+  font-weight: bold;
+  padding-right: 10px;
+  color: black;
+}
+.rightSpan {
+  font-size: 10px;
+  color: black;
 }
