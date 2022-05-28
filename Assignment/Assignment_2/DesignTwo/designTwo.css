@@ -115,3 +115,6 @@ ul li a {
 .box p {
   width: 50%;
 }
+hr {
+  border: 1px solid #ebe5fc;
+}
