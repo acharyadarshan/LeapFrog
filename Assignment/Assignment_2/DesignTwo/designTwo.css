@@ -90,7 +90,7 @@ aside {
 .main {
   margin-bottom: 10rem;
 }
-ul li {
+.box ul li {
   list-style: none;
   display: inline-block;
   border: 1px solid black;
