@@ -8,6 +8,7 @@
   color: #f2f2f2;
 }
 :root {
+  --primary: #f2f2f2;
   --cyan: #80ffea;
   --green: #8aff80;
   --orange: #ffca80;
@@ -71,7 +72,11 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 header p {
-  background-image: linear-gradient(135deg, var(--cyan) 0%, var(--green) 100%);
+  background-image: linear-gradient(
+    135deg,
+    var(--cyan) 0%,
+    var(--primary) 100%
+  );
   font-family: inherit;
   text-align: center;
   font-size: 25px;
@@ -96,4 +101,7 @@ header .para {
 }
 a {
   color: #28a745;
+}
+a:hover {
+  color: #007dff;
 }
