@@ -89,7 +89,7 @@ nav {
   padding: 6px;
   padding-left: 8px;
   padding-right: 8px;
-  margin-bottom: 4px;
+  margin-bottom: 20px;
   color: white;
   background-color: #7749f8;
   border: 1px solid #54595e;
@@ -105,4 +105,7 @@ nav {
 
 hr {
   border: 1px solid #ebe5fc;
+}
+.column p {
+  margin-bottom: 20px;
 }
