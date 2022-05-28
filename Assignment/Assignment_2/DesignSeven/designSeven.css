@@ -145,6 +145,8 @@ i {
   float: left;
   margin-right: 40px;
   padding-bottom: 10px;
+  padding-top: 5px;
+  border-radius: 5px;
 }
 .comment {
   padding-top: 4px;
@@ -155,6 +157,7 @@ i {
   width: 25px;
   float: left;
   padding-left: 5px;
+  padding-right: 5px;
   border-radius: 50%;
 }
 .commentImg span {
@@ -174,5 +177,20 @@ i {
   text-align: center;
   padding-top: 16px;
   padding-bottom: 16px;
+  color: #54595e;
+}
+.top button {
+  padding: 4px;
+  background-color: #28a745;
+  border-radius: 8px;
+  color: white;
+}
+.comment-fix {
+  padding: 8px;
+  padding-top: 12px;
+}
+.intro span,
+.top span {
+  font-size: 14px;
   color: #54595e;
 }
