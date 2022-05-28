@@ -73,33 +73,25 @@ nav {
   padding-right: 11rem;
   margin-bottom: 10rem;
 }
-.column {
-  float: left;
-  width: 40%;
-  padding: 10px;
-}
-.column label,
-.column > span,
-.right > span,
-form > span {
-  font-size: 20px;
-  display: block;
-  font-weight: bold;
-}
-
-.row-button-wrap::after {
+.main::after {
   content: "";
   display: table;
   clear: both;
 }
-
-.inline.in1 {
-  margin-right: 20px;
+hr {
+  border: 1px solid #ebe5fc;
 }
-inline form {
+
+.leftSide {
   float: left;
+  margin-left: 4rem;
+  margin-top: 6px;
 }
 
+.rightSide {
+  float: right;
+  width: 400px;
+}
 table {
   border-collapse: collapse;
 }
@@ -107,56 +99,34 @@ td {
   border: 1px solid #54595e;
   color: #54595e;
   padding: 5px;
-  width: 180px;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 220px;
 }
 td#forms {
   background-color: #7749f8;
   color: white;
 }
 
-.checkbox-wrap::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.col-1 {
-  float: left;
-  width: 30%;
-  padding: 10px;
+.leftSide > span,
+.rightSide > span {
+  font-size: 32px;
+  font-weight: bold;
+  color: #54595e;
+  display: block;
+  padding: 5px;
 }
 
-#checkboxes {
-  float: left;
-  clear: left;
+ul li {
+  display: inline;
+  margin-right: 50px;
+  border-bottom: 0;
+}
+.content ul {
+  border: 1px solid #54595e;
+  padding: 5px;
 }
 
-.inline > div {
-  float: left;
-}
-
-.right {
-  float: right;
-  width: 60%;
-}
-
-.vertical {
-  float: left;
-}
-.inline {
-  float: right;
-  width: 80%;
-  margin-bottom: 50px;
-}
-.inline::after,
-aside::after,
-.right::after,
-.section-wrap::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.right {
-  padding-top: 20px;
-  padding-bottom: 40px;
+.first {
+  background-color: #7749f8;
 }

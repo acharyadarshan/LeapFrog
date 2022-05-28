@@ -26,9 +26,11 @@
         </header>
         <section class="main">
             <h1>Forms</h1>
-            <hr>
+            <hr><br>
+            <br>
             <div class="row-button-wrap">
                 <div class="column">
+                    <span>Components</span><br>
                     <table>
                         <tr><td>Color</td></tr>
                         <tr><td>Typography</td></tr>
@@ -45,7 +47,7 @@
                     <label for="Select Menu">Select Menu</label><br>
                     <input type="text" name = "Select Menu" id="Select Menu" placeholder="select menu" size="50"><br><br>
                     <label for="Text Area">Text Area</label><br>
-                    <input type="text" name = "Text Area" id="Text Area" placeholder="Write your message here" size="50">
+                    <textarea name="Text Area" id="Text Area" cols="45" rows="8"></textarea>
                 </div>
             </div>
             <div class="right">
@@ -68,15 +70,15 @@
                     </div>
                     <div class="inline">
                         <span>Checkboxes Inline</span><br>
-                        <div class="inl1">
+                        <div class="inl">
                             <input type="checkbox" name="checkbox" value="default checkbox" id="Checkboxes">
                             <label for="Checkboxes">Checkboxes</label>
                         </div>
-                        <div class="inl2">
-                            <input type="checkbox" name="checkbox" value="default checkbox" id="Checkboxes">
+                        <div class="inl">
+                            <input type="checkbox" name="checkbox" value="default checkbox" id="Checkboxes" checked>
                             <label for="Checkboxes">Checkboxes</label>
                         </div>
-                        <div class="inl3">
+                        <div class="inl">
                             <input type="checkbox" name="checkbox" value="default checkbox" id="Checkboxes">
                             <label for="Checkboxes">Checkboxes</label>
                         </div>
@@ -86,43 +88,46 @@
             <div class="right">
                 <span>Radios</span><br>
                 <aside>
-                    <div class="vertical">
-                        <div>
-                            <input type="radio" name="checkbox" value="default checkbox" id="Checkboxes">
-                            <label for="Checkboxes">Checkboxes</label>
+                    <div class="section-wrap">
+                        <div class="vertical">
+                            <div>
+                                <input type="radio" name="checkbox" value="default checkbox" id="Checkboxes">
+                                <label for="Checkboxes">Default</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="checkbox" value="default checkbox" id="Checkboxes" checked>
+                                <label for="Checkboxes">Selected</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="checkbox" value="default checkbox" id="Checkboxes">
+                                <label for="Checkboxes">Disabled</label>
+                            </div>
+    
                         </div>
-                        <div>
-                            <input type="radio" name="checkbox" value="default checkbox" id="Checkboxes">
-                            <label for="Checkboxes">Checkboxes</label>
+                        <div class="inline">
+                            <span>Radios</span><br>
+                            <div class="inl1">
+                                <input type="radio" name="checkbox" value="default checkbox" id="Checkboxes">
+                                <label for="Checkboxes">Default</label>
+                            </div>
+                            <div class="inl2">
+                                <input type="radio" name="checkbox" value="default checkbox" id="Checkboxes" checked>
+                                <label for="Checkboxes">Default</label>
+                            </div>
+                            <div class="inl3">
+                                <input type="radio" name="checkbox" value="default checkbox" id="Checkboxes">
+                                <label for="Checkboxes">Default</label>
+                            </div>
                         </div>
-                        <div>
-                            <input type="radio" name="checkbox" value="default checkbox" id="Checkboxes">
-                            <label for="Checkboxes">Checkboxes</label>
-                        </div>
-
                     </div>
-                    <div class="inline">
-                        <span>Checkboxes Inline</span><br>
-                        <div class="inl1">
-                            <input type="radio" name="checkbox" value="default checkbox" id="Checkboxes">
-                            <label for="Checkboxes">Checkboxes</label>
-                        </div>
-                        <div class="inl2">
-                            <input type="radio" name="checkbox" value="default checkbox" id="Checkboxes">
-                            <label for="Checkboxes">Checkboxes</label>
-                        </div>
-                        <div class="inl3">
-                            <input type="radio" name="checkbox" value="default checkbox" id="Checkboxes">
-                            <label for="Checkboxes">Checkboxes</label>
-                        </div>
-                    </div>
-                    <label for="Input">Input</label><br>
-                    <input type="text" name = "Input" id="Input" placeholder="placeholder" size="50"><br><br>
-                    <label for="Select Menu">Select Menu</label><br>
-                    <input type="text" name = "Select Menu" id="Select Menu" placeholder="select menu" size="50"><br><br>
-                    <label for="Text Area">Text Area</label><br>
-                    <input type="text" name = "Text Area" id="Text Area" placeholder="Write your message here" size="50">
-                </aside>
+                    <form action="">
+                        <span>Validation</span><br>
+                        <label for="Input">Input Success</label><br>
+                        <input type="text" name = "Input" id="Input" placeholder="placeholder" size="50"><br><br>
+                        <label for="Select Menu">Input Error</label><br>
+                        <input type="text" name = "Select Menu" id="Select Menu" placeholder="select menu" size="50"><br><br>
+                    </aside>
+                    </form>
             </div>
             <footer></footer>
         </section>
