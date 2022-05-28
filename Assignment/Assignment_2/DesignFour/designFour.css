@@ -84,7 +84,8 @@ nav {
 form > span {
   font-size: 20px;
   display: block;
-  font-weight: bold;
+  font-weight: regular;
+  color: #212529;
 }
 
 .row-button-wrap::after {
@@ -147,10 +148,16 @@ td#forms {
 .vertical {
   float: left;
 }
+.vertical div {
+  margin-bottom: 10px;
+}
 .inline {
   float: right;
   width: 80%;
   margin-bottom: 50px;
+}
+.inline div {
+  margin-left: 6px;
 }
 .inline::after,
 aside::after,
@@ -175,4 +182,14 @@ form input[type="text"]#Input {
 }
 form input[type="text"]#Error {
   border: 1px solid red;
+}
+
+.vertical span,
+.inline span {
+  display: block;
+  padding-bottom: 4px;
+}
+
+form.wrap-form {
+  padding-bottom: 30px;
 }
