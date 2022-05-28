@@ -194,3 +194,42 @@ i {
   font-size: 14px;
   color: #54595e;
 }
+span.name {
+  color: #212529;
+}
+
+.icon-wrap {
+  position: relative;
+}
+#like {
+  position: absolute;
+  left: 10px;
+}
+#comment {
+  position: absolute;
+  left: 120px;
+}
+#share {
+  position: absolute;
+  left: 250px;
+}
+.info-wrap {
+  position: relative;
+}
+#play {
+  position: absolute;
+  left: 130px;
+  top: -30px;
+}
+
+.comment-fix {
+  position: relative;
+}
+#comment-new {
+  position: absolute;
+  left: 180px;
+}
+#love {
+  position: absolute;
+  left: 240px;
+}
