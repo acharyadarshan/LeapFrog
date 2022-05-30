@@ -178,6 +178,9 @@ article {
 .blogSection {
   padding-top: 30px;
 }
+.blogSection-color-wrap {
+  background-color: #f8f8f8;
+}
 .info span {
   font-weight: 600;
   font-size: 32px;
@@ -247,6 +250,7 @@ imgWrap {
 }
 .viewBtn {
   margin-top: 80px;
+  margin-bottom: 5rem;
   text-align: center;
 }
 .viewBtn button {
@@ -260,7 +264,6 @@ footer {
   width: 100%;
   background-color: #292838;
   height: 342px;
-  margin-top: 5rem;
 }
 
 .footerContainer {
