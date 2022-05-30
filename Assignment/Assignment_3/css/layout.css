@@ -11,3 +11,12 @@
 .floatRight {
   float: right;
 }
+
+.footerContainer {
+  width: 80%;
+  margin: 0 120px;
+}
+.main-container {
+  width: 80%;
+  margin: 0 120px;
+}

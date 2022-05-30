@@ -2,6 +2,9 @@ nav ul li {
   display: inline;
   padding: 0 12px;
 }
+#home {
+  color: #4e42d9;
+}
 nav ul li {
   font-weight: 400;
   font-size: 16px;
@@ -40,11 +43,6 @@ nav {
 
 ul li:first-child {
   color: #4e42d9;
-}
-
-.main-container {
-  width: 80%;
-  margin: 0 120px;
 }
 
 .leftSide {
@@ -112,6 +110,7 @@ article {
 }
 .services-wrap {
   padding-top: 70px;
+  padding-bottom: 20px;
   width: 80%;
   margin: 0 120px;
 }
@@ -266,10 +265,6 @@ footer {
   height: 342px;
 }
 
-.footerContainer {
-  width: 80%;
-  margin: 0 120px;
-}
 .leftPart {
   width: 30%;
   margin-top: 70px;
@@ -285,7 +280,7 @@ footer {
 }
 .footerPara p {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 150%;
   color: rgba(255, 255, 255, 0.8);
 }
@@ -316,7 +311,7 @@ footer {
 }
 .links a {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 110%;
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 20px;
