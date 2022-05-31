@@ -10,21 +10,6 @@
 :root {
   --primary: #f2f2f2;
   --cyan: #80ffea;
-  --green: #8aff80;
-  --orange: #ffca80;
-  --pink: #ff80bf;
-  --purple: #9580ff;
-  --yellow: #ffff80;
-  --cyan-30: #80ffea33;
-  --green-30: #8aff80;
-  --pink-30: #FF80BF3;
-  --yellow-30: #ffff80;
-  --background-40: #282a3666;
-  --cyan-40: #80ffea66;
-  --green-40: #8aff80;
-  --pink-40: #FF80BF6;
-  --purple-40: #9580ff;
-  --yellow-40: #ffff80;
 }
 
 .main {
