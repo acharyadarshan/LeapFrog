@@ -66,8 +66,8 @@ header p {
 }
 
 a {
-  color: #28a745;
+  color: blue;
 }
 a:hover {
-  color: #007dff;
+  color: #28a745;
 }
