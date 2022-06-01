@@ -11,3 +11,6 @@ Buttons             25mins                          40mins
 Tables              20min                            24min
 List Group          25mins                          28min
 Card                40mins                          43mins
+
+
+Unknown Error resolving took a lot of time.
