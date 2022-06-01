@@ -127,6 +127,9 @@
   .hd {
     padding-top: 2rem;
   }
+  .menu-btn {
+    display: block;
+  }
 }
 @media only screen and (min-width: 577px) and (max-width: 1200px) {
   .activate {
