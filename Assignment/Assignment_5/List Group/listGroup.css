@@ -45,6 +45,9 @@ nav ul li {
   line-height: 16px;
   color: #6c757d;
 }
+nav ul li a {
+  color: #6c757d;
+}
 .logo {
   width: 10%;
   margin-left: 10%;
