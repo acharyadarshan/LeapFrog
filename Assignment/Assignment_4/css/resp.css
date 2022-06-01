@@ -3,12 +3,10 @@
     position: fixed;
     right: 38%;
     top: 7%;
+  }
+  #menu {
     display: none;
   }
-
-  /* .activate.show {
-    display: block;
-  } */
 
   nav ul {
     background-color: white;

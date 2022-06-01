@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <header class="clearfix">
+            <div class="logo floatLeft">
+                <h1>Forms</h1>
+            </div>
+            <nav class="floatLeft">
+                <ul>
+                    <li><a href="https://acharyadarshan.github.io/LeapFrog/Assignment/Assignment_5/Color/color.html"></a>Color</li>
+                    <li><a href="https://acharyadarshan.github.io/LeapFrog/Assignment/Assignment_5/Typography/typography.html"></a>Typography</li>
+                    <li><a href="https://acharyadarshan.github.io/LeapFrog/Assignment/Assignment_5/Buttons/button.html"></a>Buttons</li>
+                    <li><a href="https://acharyadarshan.github.io/LeapFrog/Assignment/Assignment_5/Forms/form.html"></a>Forms</li>
+                    <li><a href="https://acharyadarshan.github.io/LeapFrog/Assignment/Assignment_5/List Group/listGroup.html"></a>List Group</li>
+                    <li><a href="https://acharyadarshan.github.io/LeapFrog/Assignment/Assignment_5/Table/table.html"></a>Table</li>
+                    <li><a href="https://acharyadarshan.github.io/LeapFrog/Assignment/Assignment_5/Card/card.html"></a>Card</li>
+                </ul>
+            </nav>
+            <div class="form-wrap floatRight clearfix">
+                <input type="text" placeholder="Search">
+                <button>Search</button>
+            </div>
+        </header>
+        <section class="main-container">
+            <div class="heading style">
+                <h1>Color</h1>
+            </div>
+            <hr>
+            <div class="row-button-wrap">
+                <div class="column">
+                    <span>Components</span><br>
+                    <table>
+                        <tr><td>Color</td></tr>
+                        <tr><td>Typography</td></tr>
+                        <tr><td>Buttons</td></tr>
+                        <tr><td id="forms">Forms</td></tr>
+                        <tr><td>List Group</td></tr>
+                        <tr><td>Table</td></tr>
+                        <tr><td>Card</td></tr>
+                    </table>
+                </div>
+                <div class="column">
+                    <label for="Input">Input</label><br>
+                    <input type="text" name = "Input" id="Input" placeholder="placeholder"><br><br>
+                    <label for="Select Menu">Select Menu</label><br>
+                    <input type="text" name = "Select Menu" id="Select Menu" placeholder="select menu" ><br><br>
+                    <label for="Text Area">Text Area</label><br>
+                    <textarea name="Text Area" id="Text Area"placeholder="Write your message here"></textarea>
+                </div>
+            </div>
+            <div class="right">
+                <aside>
+                    <span>Checkboxes</span><br><br>
+                    <div class="vertical">
+                        <span>Checkboxes</span><br>
+                        <div>
+                            <input type="checkbox" name="checkbox" value="default checkbox" id="Checkboxes">
+                            <label for="Checkboxes">Checkboxes</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="checkbox" value="default checkbox" id="Checkboxes" checked>
+                            <label for="Checkboxes">Checkboxes</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="checkbox" value="default checkbox" id="Checkboxes">
+                            <label for="Checkboxes">Checkboxes</label>
+                        </div>
+
+                    </div>
+                    <div class="inline">
+                        <span>Checkboxes Inline</span><br>
+                        <div class="inl">
+                            <input type="checkbox" name="checkbox" value="default checkbox" id="Checkboxes">
+                            <label for="Checkboxes">Checkboxes</label>
+                        </div>
+                        <div class="inl">
+                            <input type="checkbox" name="checkbox" value="default checkbox" id="Checkboxes" checked>
+                            <label for="Checkboxes">Checkboxes</label>
+                        </div>
+                        <div class="inl">
+                            <input type="checkbox" name="checkbox" value="default checkbox" id="Checkboxes">
+                            <label for="Checkboxes">Checkboxes</label>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+            <div class="right">
+                <aside>
+                    <span>Radios</span><br><br>
+                    <div class="section-wrap">
+                        <div class="vertical">
+                            <span>Radios</span><br>
+                            <div>
+                                <input type="radio" name="checkbox" value="default checkbox" id="Checkboxes">
+                                <label for="Checkboxes">Default</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="checkbox" value="default checkbox" id="Checkboxes" checked>
+                                <label for="Checkboxes">Selected</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="checkbox" value="default checkbox" id="Checkboxes">
+                                <label for="Checkboxes">Disabled</label>
+                            </div>
+    
+                        </div>
+                        <div class="inline">
+                            <span>Radios</span><br>
+                            <div class="inl1">
+                                <input type="radio" name="checkbox" value="default checkbox" id="Checkboxes1">
+                                <label for="Checkboxes1">Default</label>
+                            </div>
+                            <div class="inl2">
+                                <input type="radio" name="checkbox" value="default checkbox" id="Checkboxes2" checked>
+                                <label for="Checkboxes2">Default</label>
+                            </div>
+                            <div class="inl3">
+                                <input type="radio" name="checkbox" value="default checkbox" id="Checkboxes3">
+                                <label for="Checkboxes3">Default</label>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <form action="" class="wrap-form">
+                        <span>Validation</span><br>
+                        <label for="Input">Input Success</label><br><br>
+                        <input type="text" name = "Input" id="Input"  size="50"><br><br>
+                        <label for="Select Menu">Input Error</label><br><br>
+                        <input type="text" name = "Select Menu" id="Error" size="50"><br><br>
+                    </form>
+                </aside>
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+
+
+
+Type                 Estimated Time               Completed Time
+
+
+Navbar              30 mins                         37 mins
+Color               20 mins                         24mins
+Typography          25mins                          20 mins
+Buttons             25mins                          40mins
+Tables              20min                            24min
+List Group          25mins                          28min
+Card                40mins                          43mins
