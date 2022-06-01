@@ -16,6 +16,9 @@ a {
   cursor: pointer;
   text-decoration: none;
 }
+/* nav ul li a {
+  color: #6c757d;
+} */
 
 .floatLeft {
   float: left;
@@ -43,9 +46,6 @@ nav ul li {
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-  color: #6c757d;
-}
-nav ul li a {
   color: #6c757d;
 }
 .logo {
@@ -91,6 +91,9 @@ header {
   font-size: 12px;
   line-height: 14px;
   color: #abb5be;
+}
+nav ul li a {
+  color: #6c757d;
 }
 .heading {
   margin-top: 2rem;
