@@ -1,0 +1,36 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+.footerContainer {
+  width: 80%;
+  margin: 0 120px;
+}
+.main-container {
+  width: 80%;
+  margin: 0 120px;
+}
+
+.menu-btn {
+  cursor: pointer;
+  float: right;
+  margin-top: 7%;
+  margin-right: 7%;
+}
+#hamburger {
+  display: none;
+}
+
+#belowSection {
+  display: block;
+}
