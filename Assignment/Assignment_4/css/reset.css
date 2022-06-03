@@ -25,6 +25,9 @@ img {
 }
 body {
   font-family: "Poppins", sans-serif;
+  position: relative;
+
+  width: 100%;
 }
 button:hover {
   cursor: pointer;

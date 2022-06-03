@@ -1,28 +1,68 @@
+#checkbox {
+  display: none;
+}
+label {
+  display: none;
+}
+.menu,
+.cross {
+  cursor: pointer;
+  position: relative;
+}
+
 @media only screen and (max-width: 576px) {
-  .activate {
-    position: fixed;
-    right: 38%;
-    top: 7%;
+  #checkbox:checked ~ nav {
+    margin-top: auto;
+    margin-bottom: auto;
   }
-  #menu {
+  #checkbox:checked ~ .belowSection {
+    display: none;
+  }
+  #checkbox:checked ~ nav ul {
+    display: block;
+  }
+
+  #checkbox:not(:checked) ~ .cross {
     display: none;
   }
 
-  nav ul {
-    background-color: white;
-    width: 100%;
-    height: 100vh;
-    min-height: 100%;
-    margin-left: 40%;
-    margin-top: 50%;
-  }
-
-  nav ul li {
+  #checkbox:not(:checked) ~ .menu {
     display: block;
   }
 
-  #hamburger {
+  #checkbox:checked ~ .menu {
+    display: none;
+  }
+
+  header nav ul {
+    display: none;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  header .logo,
+  header nav {
+    float: none;
+  }
+
+  header nav ul li {
     display: block;
+    padding: 0;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  label {
+    display: block;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  }
+
+  label {
+    font-size: 2rem;
   }
 
   aside {
@@ -34,6 +74,7 @@
   }
   aside img {
     height: 347px;
+    display: none;
   }
   .main-container {
     float: none;
