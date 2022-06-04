@@ -1,0 +1,239 @@
+#checkbox {
+  display: none;
+}
+label {
+  display: none;
+}
+
+@media screen and (max-width: 711px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  nav ul li {
+    display: block;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .background__img {
+    width: 50%;
+    height: 40%;
+  }
+  .hero__img {
+    width: 90%;
+  }
+  nav ul {
+    padding-top: 5%;
+  }
+  nav__btn {
+    padding-left: 3rem;
+  }
+  #checkbox:checked ~ nav {
+    height: 90vh;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  #checkbox:checked ~ ul {
+    display: block;
+  }
+  #checkbox:not(:checked) ~ ul {
+    display: none;
+  }
+
+  #checkbox:not(:checked) ~ label .cross {
+    display: none;
+  }
+
+  #checkbox:not(:checked) ~ label .menu {
+    display: block;
+  }
+
+  #checkbox:checked ~ label .menu {
+    display: none;
+  }
+
+  header nav {
+    float: none;
+  }
+
+  header nav ul li {
+    display: block;
+    padding: 0;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  label {
+    display: block;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  }
+
+  label {
+    font-size: 2rem;
+  }
+
+  #line__img {
+    display: none;
+  }
+
+  .hero__left {
+    width: 100%;
+    padding-left: 4%;
+  }
+  .hero__right {
+    width: 100%;
+  }
+  .hero__description {
+    padding-top: 9%;
+  }
+
+  .category__item {
+    width: 100%;
+  }
+  .destinations__wrapper {
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+  }
+  .destination__card {
+    float: none;
+    width: 100%;
+  }
+  .card__lower {
+    display: none;
+  }
+  .category {
+    padding-bottom: 4rem;
+  }
+  .booking__method {
+    padding-left: 5rem;
+  }
+  .booking__method__steps {
+    padding-bottom: 6rem;
+    width: 100%;
+  }
+  .booking__card__img {
+    display: none;
+  }
+  .testimonial {
+    padding-left: 4rem;
+  }
+  .testimonial__wrapper {
+    width: 100%;
+  }
+  .logo__primary {
+    width: 80%;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+  }
+  .subscription form input {
+    padding: 1.56rem 1.56rem 1.5rem 1.125rem;
+  }
+  .subscription button {
+    padding: 1.43rem 3.125rem;
+  }
+  footer {
+    padding-bottom: 2.75rem;
+  }
+  .footer__item {
+    padding-bottom: 2rem;
+    width: 50%;
+  }
+  .footer__item h5 {
+    padding-bottom: 1rem;
+  }
+  .copyright__info {
+    padding-bottom: 3rem;
+  }
+  .category__intro img {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 712px) and (max-width: 1200px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  nav ul li {
+    margin-bottom: 2rem;
+  }
+  .hero__right {
+    width: 100%;
+  }
+  .hero__left {
+    width: 100%;
+  }
+  .category {
+    padding-bottom: 2.75rem;
+  }
+  .category__item {
+    width: 50%;
+  }
+  .card__lower {
+    display: none;
+  }
+  .destinations__wrapper {
+    padding-bottom: 3.625rem;
+  }
+
+  .destination__card {
+    width: 100%;
+    padding-left: 7rem;
+  }
+  .booking__method__steps {
+    width: 100%;
+    padding-bottom: 3rem;
+  }
+  .booking__card__img img {
+    display: none;
+  }
+  .logo__primary {
+    width: 80%;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+  }
+  .testimonial__wrapper {
+    width: 100%;
+  }
+  .company__logos {
+    padding-bottom: 2.25rem;
+  }
+  .subscription form input {
+    padding: 1.56rem 1.56rem 1.56rem 1.125rem;
+  }
+  .subscription p {
+    padding: 2.93rem 2rem 1.62rem;
+  }
+  footer {
+    padding-bottom: 2.75rem;
+    padding-left: 6rem;
+    padding-top: 4.375rem;
+  }
+  .footer__item {
+    padding-bottom: 2rem;
+    width: 50%;
+  }
+  .footer__item h5 {
+    padding-bottom: 1rem;
+  }
+  .copyright__info {
+    padding-bottom: 3rem;
+  }
+  .category__intro img {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1520px) {
+  header {
+    width: 100%;
+  }
+  .main-container {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+}
