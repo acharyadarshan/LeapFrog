@@ -1,37 +1,3 @@
-.logo {
-  float: left;
-}
-nav {
-  padding: 2rem 0;
-  width: 80%;
-  margin: 0 auto;
-}
-nav ul {
-  float: right;
-}
-
-nav ul li {
-  float: left;
-  padding-left: 3rem;
-  line-height: 1.2rem;
-  font-size: 1.0625;
-}
-nav ul li a:hover {
-  color: #f1a501;
-  transition: 0.4s;
-}
-nav ul li select:hover {
-  color: #f1a501;
-  transition: 0.4s;
-}
-nav ul li a,
-select {
-  color: #212832;
-}
-.main__container {
-  margin: 0 auto;
-}
-
 .background__img {
   position: absolute;
   top: 0;
@@ -56,27 +22,6 @@ select {
   padding: 9px 21px 9px 22px;
 }
 
-.float__left {
-  float: left;
-}
-.float__right {
-  float: right;
-}
-.hero__section {
-  width: 100%;
-}
-
-.hero__left {
-  width: 50%;
-  padding: 6rem 0px;
-}
-.hero__right {
-  width: 50%;
-  float: right;
-}
-.hero__img {
-  width: 41rem;
-}
 .hero__left h5 {
   font-weight: 700;
   line-height: 1.875rem;
@@ -448,14 +393,13 @@ select {
   right: -32rem;
   top: -1rem;
 }
-
 .footer__item {
   width: 20%;
   float: left;
 }
 
 footer {
-  padding-top: 10.375rem;
+  padding-top: 5.375rem;
   padding-bottom: 5.75rem;
 }
 
@@ -505,7 +449,9 @@ copyright__info p {
   line-height: 124.5%;
   color: #5e6282;
 }
-
+.copyright__info {
+  padding-bottom: 3rem;
+}
 .footer__logo {
   padding-bottom: 1rem;
 }
@@ -518,6 +464,14 @@ copyright__info p {
   background-color: #181e4b;
   border-radius: 50%;
   transition: 0.4s;
+}
+.hero__action a:first-child:hover {
+  font-size: 18px;
+  color: #212832;
+}
+.hero__action a:last-child:hover {
+  font-size: 18px;
+  font-weight: 700;
 }
 
 form button:hover {
@@ -533,4 +487,37 @@ form button:hover {
     0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
     0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
   transition: 0.4s;
+}
+.category__item:hover {
+  background: #ffffff;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+    0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+    0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+    0px 20px 13px rgba(0, 0, 0, 0.01),
+    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  border-radius: 36px;
+}
+
+.hover__effect1,
+.hover__effect2,
+.hover__effect3,
+.hover__effect4 {
+  width: 6.25rem;
+  height: 6.25rem;
+  background: #df6951;
+  border-radius: 30px 0px 10px;
+  position: relative;
+  bottom: 0.8rem;
+  left: -2.8rem;
+  margin-bottom: -6.25rem;
+  z-index: -1;
+  display: none;
+}
+
+.hover__effect1-active,
+.hover__effect2-active,
+.hover__effect3-active,
+.hover__effect4-active {
+  display: block;
 }

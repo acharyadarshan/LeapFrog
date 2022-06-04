@@ -133,6 +133,9 @@ label {
   .subscription button {
     padding: 1.43rem 3.125rem;
   }
+  .subscription img {
+    display: none;
+  }
   footer {
     padding-bottom: 2.75rem;
   }
@@ -205,6 +208,9 @@ label {
   }
   .subscription p {
     padding: 2.93rem 2rem 1.62rem;
+  }
+  .subscription img {
+    display: none;
   }
   footer {
     padding-bottom: 2.75rem;

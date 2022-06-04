@@ -1,0 +1,54 @@
+.logo {
+  float: left;
+}
+nav {
+  padding: 2rem 0;
+  width: 80%;
+  margin: 0 auto;
+}
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  float: left;
+  padding-left: 3rem;
+  line-height: 1.2rem;
+  font-size: 1.0625;
+}
+nav ul li a:hover {
+  color: #f1a501;
+  transition: 0.4s;
+}
+nav ul li select:hover {
+  color: #f1a501;
+  transition: 0.4s;
+}
+nav ul li a,
+select {
+  color: #212832;
+}
+.main__container {
+  margin: 0 auto;
+}
+.float__left {
+  float: left;
+}
+.float__right {
+  float: right;
+}
+.hero__section {
+  width: 100%;
+}
+
+.hero__left {
+  width: 50%;
+  padding: 6rem 0px;
+}
+.hero__right {
+  width: 50%;
+  float: right;
+}
+.hero__img {
+  width: 41rem;
+}
