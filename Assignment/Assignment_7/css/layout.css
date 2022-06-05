@@ -71,14 +71,6 @@ nav {
   gap: 2.5rem;
 }
 
-.enroll__card--first {
-  background-image: url(/assets/enroll1.png);
-}
-
-.enroll__card--second {
-  background-image: url(/assets/enroll2.png);
-}
-
 .description,
 .video {
   width: 45%;

@@ -19,7 +19,7 @@
 }
 
 .background__img {
-  background-image: url(/assets/header-bg.png);
+  background-image: url(../assets/header-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 6.25rem;
@@ -170,6 +170,13 @@
   border-radius: 20px;
   padding: 8.25rem 5.62rem 7.68rem;
   text-align: center;
+}
+.enroll__card--first {
+  background-image: url(../assets/enroll1.png);
+}
+
+.enroll__card--second {
+  background-image: url(../assets/enroll2.png);
 }
 
 .enroll__card--wrapper a {
