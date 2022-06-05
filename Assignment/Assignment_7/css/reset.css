@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+img:hover {
+  box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+}
+
+.menu,
+.cross {
+  cursor: pointer;
+}

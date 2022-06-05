@@ -1,0 +1,98 @@
+nav {
+  width: 80%;
+  margin: auto;
+}
+
+.main__container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer {
+  width: 100%;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3.75rem;
+}
+
+.logo img:nth-child(2) {
+  width: 5.1875rem;
+}
+.logo img:nth-child(2) {
+  width: 6rem;
+}
+.logo img:nth-child(1) {
+  position: absolute;
+  left: 11.5rem;
+  top: 6rem;
+}
+
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav__list li {
+  padding-left: 1.5rem;
+}
+.hero__section {
+  width: 80%;
+  margin: auto;
+  padding-top: 13.5rem;
+}
+
+.hero__heading {
+  padding-bottom: 2.125rem;
+}
+.hero__description {
+  padding-bottom: 4.625rem;
+}
+
+.hero__left {
+  width: 60%;
+  padding-bottom: 23.68rem;
+}
+
+.hero__action a:nth-child(1) {
+  padding: 1.375rem 2.375rem;
+  background: #f48c06;
+  border-radius: 5rem;
+  color: white;
+  font-size: 1.5rem;
+  right: 2.5rem;
+}
+.hero__action {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.enroll__card--first {
+  background-image: url(/assets/enroll1.png);
+}
+
+.enroll__card--second {
+  background-image: url(/assets/enroll2.png);
+}
+
+.description,
+.video {
+  width: 45%;
+}
+.video img:nth-child(3) {
+  width: 33rem;
+}
+
+.description {
+  max-width: 40.93rem;
+}
+.description h4 {
+  padding-bottom: 1.8rem;
+}
+.description p {
+  padding-bottom: 1.8rem;
+}

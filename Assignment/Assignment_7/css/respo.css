@@ -1,0 +1,247 @@
+body {
+  overflow-x: hidden !important;
+}
+#checkbox {
+  display: none;
+}
+label {
+  display: none;
+}
+.menu,
+.cross {
+  position: absolute;
+  top: 4rem;
+  right: 2rem;
+}
+
+@media screen and (max-width: 707px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .logo img:nth-child(1) {
+    position: absolute;
+    left: 6.5rem;
+    top: 6rem;
+  }
+  .logo {
+    width: 100%;
+  }
+  .nav__list {
+    width: 100%;
+  }
+  nav ul li {
+    display: block;
+    width: 100%;
+    margin-top: 5%;
+  }
+  nav ul {
+    padding-top: 5%;
+  }
+
+  #checkbox:checked ~ nav {
+    height: 90vh;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  #checkbox:checked ~ ul {
+    display: block;
+  }
+  #checkbox:not(:checked) ~ ul {
+    display: none;
+  }
+
+  #checkbox:not(:checked) ~ label .cross {
+    display: none;
+  }
+
+  #checkbox:not(:checked) ~ label .menu {
+    display: block;
+  }
+
+  #checkbox:checked ~ label .menu {
+    display: none;
+  }
+
+  header nav ul li {
+    display: block;
+    padding: 0;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  label {
+    display: block;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  }
+
+  label {
+    font-size: 2rem;
+  }
+
+  .hero__section {
+    padding-top: 5rem;
+  }
+  .hero__left {
+    width: 100%;
+    padding-bottom: 6rem;
+  }
+  .hero__action {
+    flex-direction: column;
+  }
+  .company__logos {
+    margin-bottom: 8rem;
+  }
+  .feature__primary {
+    width: 100%;
+    margin-bottom: 6rem;
+  }
+  .enroll__card--first,
+  .enroll__card--second {
+    width: 100%;
+  }
+  .enroll__card--wrapper a {
+    font-size: 1rem;
+    padding: 1.3rem 1.3rem;
+  }
+  .description,
+  .video {
+    width: 100%;
+  }
+  .watch__video {
+    margin-bottom: 8.25rem;
+  }
+  .style__content {
+    margin-bottom: 5rem;
+  }
+  .quality__information--part {
+    width: 100%;
+  }
+  .hero__img--part {
+    width: 100%;
+  }
+  .video img:nth-child(1) {
+    display: none;
+  }
+  .video img:nth-child(2) {
+    display: none;
+  }
+
+  .secondary__btn {
+    margin-bottom: 3rem;
+  }
+
+  .hero__img--part img {
+    width: 100%;
+    margin-bottom: 6rem;
+  }
+  .quality__wrapper {
+    margin-bottom: 6rem;
+  }
+  .news__primary,
+  .news__secondary {
+    width: 100%;
+  }
+  .news__list {
+    flex-direction: column;
+  }
+  .news__wrapper {
+    margin-bottom: 5rem;
+  }
+  .features__wrapper {
+    margin-bottom: 0.87rem;
+  }
+  .enroll__card--first,
+  .enroll__card--second {
+    padding: 8.25rem 3.62rem 7.68rem;
+  }
+}
+@media screen and (min-width: 708px) and (max-width: 1200px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .logo img:nth-child(1) {
+    display: none;
+  }
+  ul li {
+    margin-bottom: 2rem;
+  }
+  .hero__left {
+    width: 100%;
+    padding-bottom: 4rem;
+  }
+  .hero__action {
+    flex-direction: column;
+  }
+  .feature__primary {
+    width: 100%;
+    margin-bottom: 6rem;
+  }
+  .features__wrapper {
+    margin-bottom: 0.87rem;
+  }
+  .enroll__card--first,
+  .enroll__card--second {
+    width: 100%;
+  }
+  .description,
+  .video {
+    width: 100%;
+  }
+  .quality__information--part {
+    width: 100%;
+  }
+  .hero__img--part {
+    width: 100%;
+  }
+  .news__primary,
+  .news__secondary {
+    width: 100%;
+  }
+  .video img:nth-child(1) {
+    display: none;
+  }
+  .video img:nth-child(2) {
+    display: none;
+  }
+  .hero__section {
+    padding-top: 5rem;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .enroll__card--first,
+  .enroll__card--second {
+    width: 50%;
+  }
+  .quality__information--part {
+    width: 100%;
+  }
+  .hero__img--part {
+    width: 100%;
+  }
+  .video img:nth-child(1) {
+    display: none;
+  }
+  .video img:nth-child(2) {
+    display: none;
+  }
+  .logo img:nth-child(1) {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1530px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .video img:nth-child(1) {
+    display: none;
+  }
+  .video img:nth-child(2) {
+    display: none;
+  }
+}
