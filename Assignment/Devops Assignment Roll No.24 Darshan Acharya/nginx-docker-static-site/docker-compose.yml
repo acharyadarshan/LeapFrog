@@ -1,0 +1,10 @@
+services:
+  docker_static:
+    container_name: docker_static
+    image: docker_static
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "8080:8080"
