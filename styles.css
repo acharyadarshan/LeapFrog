@@ -15,15 +15,16 @@
 .main {
     margin: 0 auto;
     width: 70%;
-    height: 200vh;
+    /* height: 200vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15vh;
 }
 
 header {
-    margin-top: 10rem;
+    margin-top: 4rem;
     text-align: center;
 }
 table {
