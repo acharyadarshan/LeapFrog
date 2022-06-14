@@ -15,7 +15,7 @@
 .main {
     margin: 0 auto;
     width: 70%;
-    height: 110vh;
+    height: 200vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
